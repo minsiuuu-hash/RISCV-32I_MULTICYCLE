@@ -58,22 +58,11 @@ module control_unit (
 );
 
     // control unit multi cycle stage
-    typedef enum logic [3:0] {
+    typedef enum logic [2:0] {
         FETCH,
         DECODE,
         EXECUTE,
-        EXE_R,
-        EXE_I,
-        EXE_S,
-        EXE_B,
-        EXE_L,
-        EXE_J,
-        EXE_JL,
-        EXE_U,
-        EXE_UA,
         MEM,
-        MEM_S,
-        MEM_L,
         WB
     } state_e;
 
