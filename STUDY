@@ -1,4 +1,6 @@
 Single Cycle
-1) 한 명령어를 1클럭 안에 끝내야 해서, control signal을 instruction opcode/funct만 보고 바로 만들어내는 조합회로형태가 많음
+  1) 한 명령어를 1클럭 안에 끝내야 해서, control signal을 instruction opcode/funct만 보고 바로 만들어내는 조합회로형태가 많음
+  2) AMBA BUS 연결 불가능, 조합회로 형태여서 READY신호를 기다릴수가 없음.
 Multi Cycle
-1) 한 명령어를 여러 단계로 나눠서 실행하니까, 현재 단계(state)에 따라 제어가 달라져서 FSM 기반 control unit을 많이 씀
+  1) 한 명령어를 여러 단계로 나눠서 실행하니까, 현재 단계(state)에 따라 제어가 달라져서 FSM 기반 control unit을 많이 씀
+  2) AMBA BUS 연결 가능, FSM 형식이므로 READY 신호를 기다릴수 있음.
