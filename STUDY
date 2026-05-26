@@ -4,3 +4,6 @@ Single Cycle
 Multi Cycle
   1) 한 명령어를 여러 단계로 나눠서 실행하니까, 현재 단계(state)에 따라 제어가 달라져서 FSM 기반 control unit을 많이 씀
   2) AMBA BUS 연결 가능, FSM 형식이므로 READY 신호를 기다릴수 있음.
+
+따라서 clk주기신호를 Single Cycle보다 Multi Cycle은 더 줄일 수 있음.
+여기서 이제 시간적으로 아낄 수 있다.
