@@ -6,7 +6,7 @@ FETCH > DECODE > EXECUTE > MEMORY > WRITEBACK<br>
 First, i change cpu code. it was combinational logic. but we need sequential logic to make Multi Cycle.<br>
 Then we can divide the instruction to several clks.<br>
 
-//![project image](img/Block.png)
+//![project image](img/Blodck.png)
 I add total 7 register to make Multi Cycle.<br>
 
 Between Decode and Execute: RS1, RS2, Immediate save registers (3)<br>
