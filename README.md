@@ -1,7 +1,13 @@
-I change Single-Cycle to Multi-Cycle<br>
+# RISC-V RV32I Multi-Cycle CPU
 
-5 STAGE<br>
-FETCH > DECODE > EXECUTE > MEMORY > WRITEBACK<br>
+I changed the Single-Cycle CPU into a Multi-Cycle CPU.
+
+## 5 Stages
+
+The instruction execution process is divided into 5 stages.
+
+```text
+FETCH → DECODE → EXECUTE → MEMORY → WRITE BACK
 
 First, i change cpu code. it was combinational logic. but we need sequential logic to make Multi Cycle.<br>
 Then we can divide the instruction to several clks.<br>
