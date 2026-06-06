@@ -23,3 +23,18 @@ So, we compare the two types using C code SUM.
 Single cycle : 15.8ns clock period, simulation time=4.447us
 Multi cycle : 8.3ns clock period, simulation time=9.084us
 
+
+## Performance Comparison: Single-Cycle vs Multi-Cycle
+
+The performance of the Single-Cycle CPU and Multi-Cycle CPU was compared using a C code SUM program.
+
+| CPU Type | Clock Period | Simulation Time | Test Program |
+|---|---:|---:|---|
+| Single-Cycle | 15.8 ns | 4.447 us | C code SUM |
+| Multi-Cycle | 8.3 ns | 9.084 us | C code SUM |
+
+### Summary
+
+Although the Multi-Cycle CPU has a shorter clock period than the Single-Cycle CPU, it requires multiple clock cycles to execute one instruction.  
+Therefore, in this SUM program simulation, the total simulation time of the Multi-Cycle CPU is longer than that of the Single-Cycle CPU.
+
