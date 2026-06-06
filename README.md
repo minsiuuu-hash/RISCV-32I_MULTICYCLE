@@ -31,7 +31,7 @@ This allows the PC to be updated only at the appropriate state in the multi-cycl
 ### Total Added Registers
 
 | Category | Count |
-|---|---:|
+|:---:|---:|
 | Pipeline-like stage registers | 6 |
 | PC path register | 1 |
 | **Total** | **7** |
