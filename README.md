@@ -20,7 +20,7 @@ The Single-Cycle CPU was converted into a Multi-Cycle CPU by adding registers be
 These registers hold intermediate values so that each instruction can be executed step by step across multiple clock cycles.
 
 | Section | Registers | Number of Registers | Description |
-|---|---|---:|---|
+|---|---|---|---|
 | Decode → Execute | `RS1`, `RS2`, `Immediate` | 3 | Holds operand values and immediate data after instruction decode |
 | Execute → Memory | `ALU_RESULT`, `RS2` | 2 | Holds the ALU result and store data before memory access |
 | Memory → Write Back | `DRDATA` | 1 | Holds memory read data before register write-back |
