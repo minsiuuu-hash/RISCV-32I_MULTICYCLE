@@ -6,7 +6,6 @@ I changed the Single-Cycle CPU into a Multi-Cycle CPU.
 
 The instruction execution process is divided into 5 stages.
 
-```text
 FETCH → DECODE → EXECUTE → MEMORY → WRITE BACK
 
 First, i change cpu code. it was combinational logic. but we need sequential logic to make Multi Cycle.<br>
