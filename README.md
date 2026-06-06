@@ -7,12 +7,6 @@ First, i change cpu code. it was combinational logic. but we need sequential log
 Then we can divide the instruction to several clks.<br>
 
 ![project image](img/block.png)
-I add total 7 register to make Multi Cycle.<br>
-
-Between Decode and Execute: RS1, RS2, Immediate save registers (3)<br>
-Between Execute and Memory: ALU_RESULT, RS2 save registers (2)<br>
-Between Memory and Write Back: DRDATA save register (1)<br>
-PC path: PC_NEXT save register (1), and the PC register was changed to an enable-controlled register using pc_en<br>
 
 ## Added Registers for Multi-Cycle CPU
 
